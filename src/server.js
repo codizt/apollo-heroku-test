@@ -1,7 +1,7 @@
 const {ApolloServer} = require('apollo-server')
 const {typeDefs, resolvers} = require('./schema')
 
-const port = process.env.PORT || 8000
+const port = process.env.PORT || 4000
 
 const server = new ApolloServer({typeDefs, resolvers})
 
