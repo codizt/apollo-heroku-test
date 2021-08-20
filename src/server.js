@@ -1,5 +1,5 @@
 const {ApolloServer} = require('apollo-server')
-const {ApolloServerPluginLandingPageGraphQLPlayground} = require('apollo-server')
+const {ApolloServerPluginLandingPageGraphQLPlayground} = require('apollo-server-core')
 const {typeDefs, resolvers} = require('./schema')
 
 const port = process.env.PORT || 4000
